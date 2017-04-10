@@ -6,5 +6,12 @@
             "email": "465908774@qq.com"
         }
     ],
-    "require": {}
+  "autoload": {
+    "psr-4": {
+      "Pattern\\": ""
+    }
+  },
+    "require": {
+        "psr/http-message": "^1.0"
+    }
 }
