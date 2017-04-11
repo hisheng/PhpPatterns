@@ -5,7 +5,7 @@
  * Date: 2017/4/11
  * Time: 10:11
  */
-namespace Pattern\Structural\Builder;
+namespace Pattern\Creational\Builder;
 
 interface BuilderInterface
 {

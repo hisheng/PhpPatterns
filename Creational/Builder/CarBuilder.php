@@ -5,12 +5,12 @@
  * Date: 2017/4/11
  * Time: 10:23
  */
-namespace Pattern\Structural\Builder;
+namespace Pattern\Creational\Builder;
 
-use Pattern\Structural\Builder\Parts\Car;
-use Pattern\Structural\Builder\Parts\Door;
-use Pattern\Structural\Builder\Parts\Engine;
-use Pattern\Structural\Builder\Parts\Wheel;
+use Pattern\Creational\Builder\Parts\Car;
+use Pattern\Creational\Builder\Parts\Door;
+use Pattern\Creational\Builder\Parts\Engine;
+use Pattern\Creational\Builder\Parts\Wheel;
 
 class CarBuilder implements BuilderInterface
 {

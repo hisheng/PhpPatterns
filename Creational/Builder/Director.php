@@ -5,7 +5,7 @@
  * Date: 2017/4/11
  * Time: 13:14
  */
-namespace Pattern\Structural\Builder;
+namespace Pattern\Creational\Builder;
 
 class Director
 {

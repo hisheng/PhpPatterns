@@ -7,9 +7,9 @@
  */
 require __DIR__.'/../../vendor/autoload.php';
 
-use Pattern\Structural\Builder\Director;
-use Pattern\Structural\Builder\CarBuilder;
-use Pattern\Structural\Builder\Parts\Car;
+use Pattern\Creational\Builder\Director;
+use Pattern\Creational\Builder\CarBuilder;
+use Pattern\Creational\Builder\Parts\Car;
 
 
 $car = new Director(new CarBuilder(new Car()));

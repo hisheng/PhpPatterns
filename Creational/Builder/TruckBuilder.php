@@ -5,11 +5,11 @@
  * Date: 2017/4/11
  * Time: 13:06
  */
-namespace Pattern\Structural\Builder;
-use Pattern\Structural\Builder\Parts\Door;
-use Pattern\Structural\Builder\Parts\Engine;
-use Pattern\Structural\Builder\Parts\Truck;
-use Pattern\Structural\Builder\Parts\Wheel;
+namespace Pattern\Creational\Builder;
+use Pattern\Creational\Builder\Parts\Door;
+use Pattern\Creational\Builder\Parts\Engine;
+use Pattern\Creational\Builder\Parts\Truck;
+use Pattern\Creational\Builder\Parts\Wheel;
 
 class TruckBuilder implements BuilderInterface
 {

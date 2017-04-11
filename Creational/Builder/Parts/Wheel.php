@@ -5,7 +5,7 @@
  * Date: 2017/4/11
  * Time: 11:07
  */
-namespace Pattern\Structural\Builder\Parts;
+namespace Pattern\Creational\Builder\Parts;
 class Wheel
 {
 
