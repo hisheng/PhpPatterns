@@ -11,3 +11,6 @@ $a = require 'config.php';
 echo microtime(true);
 echo "\n";
 var_dump($a);
+
+echo 'DateTime ';
+var_dump(new DateTime('yesterday'));
