@@ -4,4 +4,7 @@
 书架 BookShelf
 书架迭代器 BookShelfIterator
 书 Book
+
+代码实现灵感 源于 《图解设计模式》
+
 http://laravelacademy.org/post/2882.html
