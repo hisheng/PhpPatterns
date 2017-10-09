@@ -1,0 +1,1 @@
+通过 PayFactory 的 make 方法 生成 需要的类
