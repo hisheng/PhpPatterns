@@ -8,5 +8,5 @@
 require '../vendor/autoload.php';
 
 $payFactory = new \Pattern\AbstractFactory\PayFactory();
-$pay = $payFactory->make('wechat'); 
+$pay = $payFactory->make('wechat');
 var_dump($pay);
