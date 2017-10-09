@@ -9,11 +9,13 @@ namespace Pattern\AbstractFactory;
 
 class PayFactory extends Pay
 {
+    private $gateWay;
     public function buy(){
-    
+        var_dump($this->gateWay. 'buy');
     }
     public function make($gateWay)
     {
+        $this->gateWay = $gateWay;
         switch ($gateWay) {
             case self::ALIPAY:
                 return new AliPay();
@@ -25,6 +27,6 @@ class PayFactory extends Pay
     }
     public function refund()
     {
-    
+        var_dump($this->gateWay. 'refund');
     }
 }
